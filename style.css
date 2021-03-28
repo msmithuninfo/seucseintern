@@ -13,7 +13,7 @@ body{
 }
 .nav-link{
 	font-size: 16px;
-	margin: 15px;
+	margin: 0px 15px;
 	color: black !important;
 	font-family: 'Roboto Condensed';
 }
@@ -26,7 +26,7 @@ body{
 	color: #00E8E8 !important;
 }
 .menu-right-btn{
-	padding: 13px 46px;
+	padding: 8px 30px;
 	margin-right: 4%;
 	background-color: transparent;
 	transition: all 300ms ease-in;
@@ -38,4 +38,70 @@ body{
 .navbarstyles{
     background: antiquewhite;
 }
+.navbar-brand {
+    font-size: 26px;
+}
 /*End header*/
+.sidebars{
+	width: 300px;
+	height: 100vh;
+	background: #F0F2F5;
+	position: fixed;
+	top: 68px;
+	left: 0px;
+	z-index: 111;
+	overflow: hidden;
+	max-height: calc(100vh - 68px);
+}
+.sidebars:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sidebars::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebars::-webkit-scrollbar-track {
+  background: #F0F2F5;
+}
+ 
+.sidebars::-webkit-scrollbar-thumb {
+  background: rgba(125,125,125,.4);
+  border-radius: 50px;
+}
+
+.sidebars::-webkit-scrollbar-thumb:hover {
+  background: rgba(125,125,125,.5);
+}
+.lefttest {
+    width: 260px;
+    background: #F0F2F5;
+    padding: 0px 16px 0px 16px;
+    box-sizing: content-box;
+}
+.lefttest p {
+    text-align: justify;
+}
+.container{
+	margin-left: 300px;
+	width: calc(100% - 300px);
+	margin-top: 68px;
+	box-sizing: border-box;
+	padding: 20px;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.sidebars{
+		display: none;
+	}
+	.container{
+	margin-left: 0px;
+	width: 100%;
+	margin-top: 68px;
+	box-sizing: border-box;
+	padding: 20px;
+
+}
+}
