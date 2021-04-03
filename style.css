@@ -105,3 +105,39 @@ body{
 
 }
 }
+
+.menus {
+    margin-top: 50px;
+}
+.searchclass {
+    width: 274px;
+    position: fixed;
+    top: 68px;
+    background: #F0F2F5;
+    padding: 10px 0px;
+}
+
+input.searchcl {
+    width: 260px;
+    height: 40px;
+    padding-right: 45px;
+    border: navajowhite;
+    background: bisque;
+    padding-left: 10px;
+    outline: none;
+        border-radius: 100px;
+}
+input.searchcl:hover{
+
+}
+button.searchbtn {
+    width: auto;
+    height: 40px;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    border: none;
+    background: bisque;
+    outline: none;
+        border-radius: 100px;
+}
