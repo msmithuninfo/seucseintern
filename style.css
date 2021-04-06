@@ -188,6 +188,18 @@ button.searchbtn {
 #SideDropMenu3 {
   display: none;
 }
+#SideDropMenu4 {
+  display: none;
+}
+#SideDropMenu5 {
+  display: none;
+}
+#SideDropMenu6 {
+  display: none;
+}
+#SideDropMenu7 {
+  display: none;
+}
 
 .sidebars .menus ul li i.fa.fa-angle-double-right {
     font-size: 14px;
