@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta http-equiv="refresh" content="5"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Shopping</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbarstyles navbar navbar-expand-lg navbar-light fixed-top">
+
+      <button onclick="myFunctionNavbar()" class="lestsidicon">
+        Menu
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+
+
+
+      <a href="#" class="navbar-brand ml-3">Online<span style="color: #00E8E8;">Shopping</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"></div>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Messages</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn menu-right-btn border" href="#">
+            Login
+          </a>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+
+<div class="full-containers">
+	<div class="sidebars" id="leftmenu">
+		<div class="lefttest">
+      <div class="searchclass">
+        <form>
+          <input class="searchcl" type="search" placeholder="Search">
+          <button class="searchbtn" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="menus">
+  <ul>
+    <li><a href="#">Offer</a></li>
+    <li><a href="#">Food Aid</a></li>
+    <li><a href="#">Hygiene</a></li>
+    <li><a href="#">Summer Collection</a></li>
+    <li><a href="#">Ramadan</a></li>
+    <li><a href="#">New Arrival</a></li>
+    <li><a href="#">Popular</a></li>
+    <li onclick="rotateArrow1()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown1()">Baby Care 
+        <i class="fa fa-angle-double-right" id="activeArrow1"></i>
+      </a>
+      <ul  id="SideDropMenu1">
+        <li><a href="#">Newborn Essentials</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow2()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown2()">Pet Care
+    <i class="fa fa-angle-double-right" id="activeArrow2"></i>
+    </a>
+      <ul  id="SideDropMenu2">
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow3()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown3()">Food
+      <i class="fa fa-angle-double-right" id="activeArrow3"></i>
+      </a>
+      <ul  id="SideDropMenu3">
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+      </ul>
+    </li>
+    <li><a href="#">One</a></li>
+    
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+   
+    <li><a href="#">One</a></li>
+    <li><a href="#">One</a></li>
+  </ul>
+      </div>
+		
+	</div>
+	</div>
+	<div class="container_custom">
+		<div class="container-fluid bg-light-gray">
+
+<div class="container pt-5">
+   
+  <div class="row">
+    <h3>ALL LADIES TOP</h3>
+  </div>
+    <div class="row">
+    <div class="underline"></div>
+  </div>
+</div>
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/pexels-photo-206410.jpeg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>White Top</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/pexels-photo-458768.jpeg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>White Top</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/pexels-photo-247855.jpeg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>White Top</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/pexels-photo-235497.jpeg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>Red Top</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container mt-5">
+   
+  <div class="row">
+    <h3>HIGH HEEL SHOES</h3>
+  </div>
+    <div class="row">
+    <div class="underline"></div>
+  </div>
+</div>
+
+
+<div class="container mt-5 pb-5">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/show 1.jpg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>Black Shoes</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/show 2.jpg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>Red Shoes</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/show 3.jpg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>Modern Shoes</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img src="img/show 4.jpg" alt="card-1" class="card-img-top">
+        <div class="card-body">
+          <h5>High Hill Shoes</h5>
+          <h6>$34.00</h6>
+          <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+	</div>
+</div>
+
+
+<script>
+function myFunctionNavbar() {
+  var x = document.getElementById("leftmenu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script>
+function myFunctionDropdown1() {
+  var x = document.getElementById("SideDropMenu1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+
+  }
+}
+</script>
+<script>
+function myFunctionDropdown2() {
+  var x = document.getElementById("SideDropMenu2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script>
+function myFunctionDropdown3() {
+  var x = document.getElementById("SideDropMenu3");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+    function rotateArrow1() {
+        var okk1 = document.getElementById('activeArrow1');
+        if (okk1.style.transform === "rotate(90deg)") {
+          okk1.style.transform = "rotate(0deg)";
+        } else {
+          okk1.style.transform = "rotate(90deg)";
+        }
+    }
+</script>
+
+ <script>
+    function rotateArrow2() {
+        var okk1 = document.getElementById('activeArrow2');
+        if (okk1.style.transform === "rotate(90deg)") {
+          okk1.style.transform = "rotate(0deg)";
+        } else {
+          okk1.style.transform = "rotate(90deg)";
+        }
+    }
+</script>
+
+<script>
+    function rotateArrow3() {
+        var okk1 = document.getElementById('activeArrow3');
+        if (okk1.style.transform === "rotate(90deg)") {
+          okk1.style.transform = "rotate(0deg)";
+        } else {
+          okk1.style.transform = "rotate(90deg)";
+        }
+    }
+</script>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+  </html>

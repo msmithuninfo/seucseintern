@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Lato';
+}
+/*Header*/
+.navbar-brand{
+	font-family: 'Pacifico';
+	font-size: 35px;
+	color: lightcoral !important;
+}
+.nav-link{
+	font-size: 16px;
+	margin: 0px 15px;
+	color: black !important;
+	font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover{
+	color: #00E8E8 !important;
+}
+
+.active .nav-link{
+	color: #00E8E8 !important;
+}
+.menu-right-btn{
+	padding: 8px 30px;
+	margin-right: 4%;
+	background-color: transparent;
+	transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+	color: white;
+	background-color: #00E8E8;
+}
+.navbarstyles{
+    background: antiquewhite;
+}
+.navbar-brand {
+    font-size: 26px;
+}
+/*End header*/
+.sidebars{
+	width: 300px;
+	height: 100vh;
+	background: #F0F2F5;
+	position: fixed;
+	top: 68px;
+	left: 0px;
+	z-index: 111;
+	overflow: hidden;
+	max-height: calc(100vh - 68px);
+}
+.sidebars:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sidebars::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebars::-webkit-scrollbar-track {
+  background: #F0F2F5;
+}
+ 
+.sidebars::-webkit-scrollbar-thumb {
+  background: rgba(125,125,125,.4);
+  border-radius: 50px;
+}
+
+.sidebars::-webkit-scrollbar-thumb:hover {
+  background: rgba(125,125,125,.5);
+}
+.lefttest {
+    width: 260px;
+    background: #F0F2F5;
+    padding: 0px 16px 0px 16px;
+    box-sizing: content-box;
+}
+.lefttest p {
+    text-align: justify;
+}
+.container_custom{
+	margin-left: 300px;
+	width: calc(100% - 300px);
+	margin-top: 68px;
+	box-sizing: border-box;
+	padding: 20px;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.sidebars{
+		display: none;
+	}
+	.container_custom{
+	margin-left: 0px;
+	width: 100%;
+	margin-top: 68px;
+	box-sizing: border-box;
+	padding: 20px;
+
+}
+}
+
+@media only screen and (min-width: 768px) {
+.lestsidicon{
+	display: none;
+}
+}
+.menus {
+    margin-top: 60px;
+}
+.searchclass {
+    width: 274px;
+    position: fixed;
+    top: 68px;
+    background: #F0F2F5;
+    padding: 10px 0px;
+    z-index: 99;
+}
+
+input.searchcl {
+    width: 260px;
+    height: 40px;
+    padding-right: 45px;
+    border: navajowhite;
+    background: bisque;
+    padding-left: 10px;
+    outline: none;
+        border-radius: 100px;
+}
+input.searchcl:hover{
+
+}
+button.searchbtn {
+    width: auto;
+    height: 40px;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    border: none;
+    background: bisque;
+    outline: none;
+        border-radius: 100px;
+}
+
+.lestsidicon{
+	border: 1px solid gray;
+    font-size: 16px;
+    font-family: sans-serif;
+    background: antiquewhite;
+    outline: none;
+    padding: 5px 9px;
+    border-radius: 6px;
+}
+
+.sidebars .menus ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebars .menus ul li{
+	width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+.sidebars .menus ul li a{
+    width: 100%;
+    height: auto;
+    padding: 8px 12px;
+    background: antiquewhite;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#SideDropMenu1 {
+  display: none;
+}
+#SideDropMenu2 {
+  display: none;
+}
+#SideDropMenu3 {
+  display: none;
+}
+
+.sidebars .menus ul li i.fa.fa-angle-double-right {
+    font-size: 14px;
+    color: black;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-black{background-color: rgba(14,14,14,1.00)}
+.carousel-caption{top:200px;}
+
+.bg-orange{background-color: #f0644f;color: aliceblue;font-weight:600;text-align:center}
+.m-right{border: 2px solid #f0644f; border-right: 2px solid white;}
+
+.underline{width: 100px; height:2px; background-color: orangered;}
+.bg-light-gray{background-color: rgba(111,111,111,0.09)}
+
+.media img{max-width:120px; height:auto}
+.underline-green{width: 70px; height: 2px; background-color:lawngreen}
+.underline-blue{width: 70px; height: 2px; background-color: mediumblue;}
+.underline-black{width: 70px; height: 2px; background-color: black;}
+
+.card-body{text-align: center;}
+
+.blog .media img{max-width: 200px; height: auto;}
