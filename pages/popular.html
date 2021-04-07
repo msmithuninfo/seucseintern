@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta http-equiv="refresh" content="5"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Shopping</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbarstyles navbar navbar-expand-lg navbar-light fixed-top">
+
+      <button onclick="myFunctionNavbar()" class="lestsidicon">
+        Menu
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+
+
+
+      <a href="#" class="navbar-brand ml-3">Online<span style="color: #00E8E8;">Shopping</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"></div>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Messages</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn menu-right-btn border" href="#">
+            Login
+          </a>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+
+<div class="full-containers">
+	<div class="sidebars" id="leftmenu">
+		<div class="lefttest">
+      <div class="searchclass">
+        <form>
+          <input class="searchcl" type="search" placeholder="Search">
+          <button class="searchbtn" type="submit"><i class="fa fa-fw fa-search"></i></button>
+        </form>
+      </div>
+      <div class="menus">
+  <ul>
+    <li><a href="#">Offer</a></li>
+    <li><a href="#">Food Aid</a></li>
+    <li><a href="#">Hygiene</a></li>
+    <li><a href="#">Summer Collection</a></li>
+    <li><a href="#">Ramadan</a></li>
+    <li><a href="#">New Arrival</a></li>
+    <li><a href="#">Popular</a></li>
+    <li onclick="rotateArrow1()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown1()">Baby Care 
+        <i class="fa fa-angle-double-right" id="activeArrow1"></i>
+      </a>
+      <ul  id="SideDropMenu1">
+        <li><a href="#">Newborn Essentials</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow2()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown2()">Pet Care
+    <i class="fa fa-angle-double-right" id="activeArrow2"></i>
+    </a>
+      <ul  id="SideDropMenu2">
+        <li><a href="#">Kitten Food</a></li>
+        <li><a href="#">Cat Food</a></li>
+        <li><a href="#">Dog Food</a></li>
+        <li><a href="#">Other Pet Foods</a></li>
+        <li><a href="#">Pet Accessories</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow3()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown3()">Food
+      <i class="fa fa-angle-double-right" id="activeArrow3"></i>
+      </a>
+      <ul  id="SideDropMenu3">
+        <li><a href="#">Fresh Fruits</a></li>
+        <li><a href="#">Fresh vegetables</a></li>
+        <li><a href="#">Local Breakfast</a></li>
+        <li><a href="#">Energy Boosters</a></li>
+        <li><a href="#">Cereals</a></li>
+        <li><a href="#">Jam & Spreads</a></li>
+        <li><a href="#">Tea</a></li>
+        <li><a href="#">Coffee</a></li>
+        <li><a href="#">Juice</a></li>
+        <li><a href="#">Soft Drinks</a></li>
+        <li><a href="#">Water</a></li>
+        <li><a href="#">Syrups & Powder Drinks</a></li>
+        <li><a href="#">Meat</a></li>
+        <li><a href="#">Fresh Fish</a></li>
+        <li><a href="#">Dried Fish</a></li>
+        <li><a href="#">Tofu & Meat Alternatives</a></li>
+        <li><a href="#">Noodles</a></li>
+        <li><a href="#">Soups</a></li>
+        <li><a href="#">Pasta & Marcaroni</a></li>
+        <li><a href="#">Candy & Chocolate</a></li>
+        <li><a href="#">Local Snacks</a></li>
+        <li><a href="#">Chips & Pretzels</a></li>
+        <li><a href="#">Popcorn & Nuts</a></li>
+        <li><a href="#">Biscuits</a></li>
+        <li><a href="#">Salad Dressing</a></li>
+        <li><a href="#">Sauces</a></li>
+        <li><a href="#">Liquid & UHT Milk</a></li>
+        <li><a href="#">Butter & Sour Cream</a></li>
+        <li><a href="#">Cheese</a></li>
+        <li><a href="#">Eggs</a></li>
+        <li><a href="#">Powder Milk & Cream</a></li>
+        <li><a href="#">Yogurts & Sweet</a></li>
+        <li><a href="#">Ice Cream</a></li>
+        <li><a href="#">Frozen Snacks</a></li>
+        <li><a href="#">Canned Food</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">Bakery Snacks</a></li>
+        <li><a href="#">Breads</a></li>
+        <li><a href="#">Dips & Spreads</a></li>
+        <li><a href="#">Honey</a></li>
+        <li><a href="#">Cakes</a></li>
+        <li><a href="#">Nuts & Dried Fruits</a></li>
+        <li><a href="#">Baking Tool</a></li>
+        <li><a href="#">Baking & Dessert Mixes</a></li>
+        <li><a href="#">Baking ingredients</a></li>
+        <li><a href="#">Flour</a></li>
+        <li><a href="#">Rice</a></li>
+        <li><a href="#">Premium ingredients</a></li>
+        <li><a href="#">Colors & Flavours</a></li>
+        <li><a href="#">Pickles</a></li>
+        <li><a href="#">Spices</a></li>
+        <li><a href="#">Ghee</a></li>
+        <li><a href="#">Ready Mix</a></li>
+        <li><a href="#">Salt & Sugar</a></li>
+        <li><a href="#">Dal or Lentil</a></li>
+        <li><a href="#">Special ingredients</a></li>
+        <li><a href="#">Shemai & Suji</a></li>
+        <li><a href="#">Diabetic</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow4()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown4()">Home & Cleaning
+      <i class="fa fa-angle-double-right" id="activeArrow4"></i>
+      </a>
+      <ul  id="SideDropMenu4">
+        <li><a href="#">Air Fresheners</a></li>
+        <li><a href="#">Dish Detergents</a></li>
+        <li><a href="#">Cleaning supplies</a></li>
+        <li><a href="#">Kitchen Accessories</a></li>
+        <li><a href="#">Laundry</a></li>
+        <li><a href="#">Napkins & paper Products</a></li>
+        <li><a href="#">Pest Control</a></li>
+        <li><a href="#">Shoe Care</a></li>
+        <li><a href="#">Tableware & Trash Bags</a></li>
+        <li><a href="#">Food Storage</a></li>
+        <li><a href="#">Cleaning Accessories</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow5()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown5()">Office Products
+      <i class="fa fa-angle-double-right" id="activeArrow5"></i>
+      </a>
+      <ul  id="SideDropMenu5">
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow6()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown6()">Beauty & Health
+      <i class="fa fa-angle-double-right" id="activeArrow6"></i>
+      </a>
+      <ul  id="SideDropMenu6">
+        <li><a href="#">Food Supplements</a></li>
+        <li><a href="#">Herbal & Digestive Aids</a></li>
+        <li><a href="#">First Aid</a></li>
+        <li><a href="#">Family Planning</a></li>
+        <li><a href="#">Antiseptics</a></li>
+        <li><a href="#">Adult Diapers</a></li>
+        <li><a href="#">Keto Food</a></li>
+        <li><a href="#">Clothing Essentials</a></li>
+        <li><a href="#">Female Care</a></li>
+        <li><a href="#">Male Care</a></li>
+        <li><a href="#">Hair Color</a></li>
+        <li><a href="#">Oral Care</a></li>
+        <li><a href="#">Skin Care</a></li>
+        <li><a href="#">Handwash</a></li>
+        <li><a href="#">Tissue & Wipes</a></li>
+        <li><a href="#">Talcom Powder</a></li>
+        <li><a href="#">Facial Care</a></li>
+        <li><a href="#">Female Bath</a></li>
+        <li><a href="#">Female Moisturizer</a></li>
+        <li><a href="#">Female Deo</a></li>
+        <li><a href="#">Female Shampoo</a></li>
+        <li><a href="#">Hair Care</a></li>
+        <li><a href="#">Feminine Care</a></li>
+        <li><a href="#">Bath</a></li>
+        <li><a href="#">Cream & Lotion</a></li>
+        <li><a href="#">Beard Grooming</a></li>
+        <li><a href="#">Men's Facewash</a></li>
+        <li><a href="#">Men's Hair Care</a></li>
+        <li><a href="#">Deodorants</a></li>
+        <li><a href="#">Shaving Needs</a></li>
+        <li><a href="#">Shampoo</a></li>
+      </ul>
+    </li>
+    <li onclick="rotateArrow7()">
+      <a href="javascript:void(0);" onclick="myFunctionDropdown7()">Home Appliances
+      <i class="fa fa-angle-double-right" id="activeArrow7"></i>
+      </a>
+      <ul  id="SideDropMenu7">
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+        <li><a href="#">Hoice</a></li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 50px;"><a href="#">Vehicle Essentials</a></li>
+  
+  </ul>
+      </div>
+		
+	</div>
+    </div>
+    <!-- Containers For Displaying -->
+	<div class="container_custom">
+		<!-- Row Start -->
+        <div class="row mb-4">
+            <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal" class="card-img-top imagesize" src="../images/mithun/item1.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                    <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="card-img-top" src="../images/mithun/item1.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+        
+              <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal2" class="card-img-top imagesize" src="../images/mithun/item2.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                    <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal2">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                       <img class="card-img-top" src="../images/mithun/item2.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+        
+              <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal3" class="card-img-top imagesize" src="../images/mithun/item3.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                  <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal3">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="card-img-top" src="../images/mithun/item3.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+              <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal4" class="card-img-top imagesize" src="../images/mithun/item4.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                    <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal4">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="card-img-top" src="../images/mithun/item4.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+            </div>
+            <!-- Row End -->
+          <!-- Row Start -->
+          <div class="row">
+            <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal5" class="card-img-top imagesize" src="../images/mithun/item5.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                    <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal5">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="card-img-top" src="../images/mithun/item5.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+        
+              <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal6" class="card-img-top imagesize" src="../images/mithun/item6.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                    <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal6">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                       <img class="card-img-top" src="../images/mithun/item6.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+        
+              <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal7" class="card-img-top imagesize" src="../images/mithun/item7.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                  <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal7">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="card-img-top" src="../images/mithun/item7.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+              <!-- Items Start -->
+            <div class="col-md-3">
+              <div class="card">
+                  <img data-toggle="modal" data-target="#myModal8" class="card-img-top imagesize" src="../images/mithun/item8.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe</p>
+                    <button class="custombtn">Add Chart</button>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal8">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img class="card-img-top" src="../images/mithun/item8.jpg" alt="Card image" style="width:100%">
+                      </div>
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item End -->
+            </div>
+            <!-- Row End -->
+	</div>
+</div>
+
+
+<script>
+function myFunctionNavbar() {
+  var x = document.getElementById("leftmenu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script src="js/mySidebarMenu.js"></script>
+
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+  </html>

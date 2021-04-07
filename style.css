@@ -244,3 +244,32 @@ button.searchbtn {
 .card-body{text-align: center;}
 
 .blog .media img{max-width: 200px; height: auto;}
+/* Modal button style */
+.custombtn {
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0px 1px 0px 0px rgb(111 111 111 / 50%);
+  outline: none;
+}
+/* Modal button style end */
+/* Modal Image Size */
+.imagesize{
+  width: 100%;
+  height: 180px;
+}
+/* Modal Image Size End */
+.card-text {
+  margin-bottom: 5px;
+  line-height: 19px;
+}
+.card-title {
+  margin-bottom: 5px;
+}
+.card-body {
+  text-align: center;
+  padding: 10px;
+}
