@@ -95,7 +95,11 @@ body{
 
 @media only screen and (max-width: 768px) {
 	.sidebars{
-		display: none;
+    display: none;
+    background: aliceblue;
+    width: 100%;
+    z-index: 999;
+    opacity: 1;
 	}
 	.container_custom{
 	margin-left: 0px;
@@ -104,6 +108,61 @@ body{
 	box-sizing: border-box;
 	padding: 20px;
 
+}
+.lefttest{
+  width: 100%;
+    box-sizing: border-box;
+    background: aliceblue;
+    display: block;
+    opacity: 1;
+}
+.searchclass{
+  left: 0px;
+    width: 100% !important;
+    background: aliceblue !important;
+}
+input.searchcl {
+  width: 94% !important;
+  box-sizing: border-box;
+  margin-left: 3%;
+  padding: 20px;
+}
+button.searchbtn {
+  left: 88% !important;
+  background: rgba(200,200,200,.1) !important;
+
+}
+div#navbarMenu {
+  background: aliceblue;
+  width: auto;
+  height: 100vh;
+}
+.navbar-collapse li.nav-item {
+  margin-top: 10px;
+}
+
+.navbar-collapse li.nav-item a.nav-link {
+  background: rgba(0,0,0,.1);
+  border-radius: 6px;
+  text-align: center;
+  color: #000000!important;
+  font-family: sans-serif;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+}
+.sidebars .menus ul li a {
+
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,.1)) !important;
+
+}
+.menu-right-btn {
+  width: 100%;
+  padding: 6px;
+  margin: 12px;
+  text-align: center;
+  box-sizing: border-box;
+  background: darkturquoise;
+  font-weight: bold;
 }
 }
 
@@ -151,10 +210,9 @@ button.searchbtn {
 }
 
 .lestsidicon{
-	border: 1px solid gray;
+	border: 1px solid rgba(111,111,111,.2);
     font-size: 16px;
     font-family: sans-serif;
-    background: antiquewhite;
     outline: none;
     padding: 5px 9px;
     border-radius: 6px;
@@ -213,7 +271,10 @@ button.searchbtn {
 }
 
 
-
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,0) !important;
+}
 
 
 
