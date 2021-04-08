@@ -334,3 +334,25 @@ button.searchbtn {
   text-align: center;
   padding: 10px;
 }
+.trytobest {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  border-radius: 5px;
+  opacity: 0;
+  cursor: pointer;
+}
+.trytobest h1{
+  text-align: center;
+  padding: 101px 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.trytobest:hover{
+  opacity: .9;
+  background: white;
+  transition: 0.5s;
+}
